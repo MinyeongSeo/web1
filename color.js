@@ -1,11 +1,12 @@
 var Link = {
     "setColor" : function (color) {
         var link = document.querySelectorAll('a');
-        var i = 0;
-        while(i < link.length){
-            link[i].style.color = color;
-            i++;
-        }
+        // var i = 0;
+        // while(i < link.length){
+        //     link[i].style.color = color;
+        //     i++;
+        // }
+        $('a').css('color', color);
     }
 };
 
